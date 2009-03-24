@@ -1,51 +1,52 @@
 Latest spreadsheet with formulas can be found at: http://spreadsheets.google.com/ccc?key=pzMLD26P55y_0uUEFIiJtRA
-COMPONENTS,,,,,,,,MATERIALS/PARTS FOR DIY COMPONENTS CALCULATOR
-COMPONENT,QTY,UNIT,BUY QTY,VENDOR,PART#,LINK,NOTES,"ANGLE-1x1,IN","SQ-TUBE-1.5,IN","PTFE-1x1,IN","SCREW 6-32 3/8,EA","THREADED-ROD-1/4-20, IN"
-sliding-element-1,8,ea,DIY,-,-,-,-,,8,12,32
-sliding-element-2.5,4,ea,DIY,-,-,-,-,,10,6,16
-sliding-element-3.5,3,ea,DIY,-,-,-,-,,10.5,9,24
-angle-24,6,ea,DIY,-,-,-,-,144
-angle-18,6,ea,DIY,-,-,-,-,108
-angle-12,6,ea,DIY,-,-,-,-,72
-angle-9,4,ea,DIY,-,-,-,-,36
-angle-6,6,ea,DIY,-,-,-,-,36
-angle-4,15,ea,DIY,-,-,-,-,60
-angle-3,16,ea,DIY,-,-,-,-,48
-angle-2,16,ea,DIY,-,-,-,-,32
-angle-1,26,ea,DIY,-,-,-,-,26
-captive-nut,6,ea,DIY,-,-,-,-,6,,,18
-leadnut-mount,6,ea,DIY,-,-,-,-
-coupling-nut-clamp,6,ea,DIY,-,-,-,-,,,,36
-shaft-mount,12,ea,DIY,-,-,-,-,12,,,36
-motor-mount-nema23,3,ea,DIY,-,-,-,-
-limit-switch,6,ea,DIY,-,-,-,-,,,3
-threaded-rod-1/4-20,14.5,in,DIY,-,-,-,-,,,,,14.5
-threaded-rod-1/4-20,15.5,in,DIY,-,-,-,-,,,,,15.5
-threaded-rod-1/4-20,20.5,in,DIY,-,-,-,-,,,,,20.5
-threaded-rod-1/4-20,21.5,in,DIY,-,-,-,-,,,,,21.5
-threaded-rod-1/4-20,26.5,in,DIY,-,-,-,-,,,,,26.5
-threaded-rod-1/4-20,27.5,in,DIY,-,-,-,-,,,,,27.5
-bearing,12,ea,12,VXB/eBay,R188ZZ ,http://stores.ebay.com/VXB-Bearings-Skateboard-and-Slotcar,,-,-,-,-,-
-pulley-XL10T,6,ea,6,SDP/SI,A 6Z 3-10DF03708,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=29443&GroupID=218,,-,-,-,-,-
-motor-coupling,6,ea,6,Mcmaster.com,6408K913,http://www.mcmaster.com/nav/enter.asp?partnum=6408K913,,-,-,-,-,-
-motor-coupling-spider,3,ea,3,Mcmaster.com,6408K61,http://www.mcmaster.com/nav/enter.asp?partnum=6408K61,,-,-,-,-,-
-belt-XL12OD,1,ea,1,SDP/SI,,,,-,-,-,-,-
-belt-XL32OD,1,ea,1,SDP/SI,,,,-,-,-,-,-
-belt-XL34OD,1,ea,1,SDP/SI,,,,-,-,-,-,-
-coupling-nut-1/4-7/8L,6,ea,6,Mcmaster.com,90264A435,http://www.mcmaster.com/nav/enter.asp?partnum=90264A435,or hardware store,-,-,-,-,-
-nut-1/4,24,ea,24,Mcmaster.com,90480A029,http://www.mcmaster.com/nav/enter.asp?partnum=90480A029,or hardware store,-,-,-,-,-
-spring-lock-washer-1/4,12,ea,12,Mcmaster.com,91102A750,http://www.mcmaster.com/nav/enter.asp?partnum=91102A750,or hardware store,-,-,-,-,-
-nut-10-24,200+,100-pk,2,Mcmaster.com,90480A011,http://www.mcmaster.com/nav/enter.asp?partnum=90480A011,,-,-,-,-,-
-screw-10-24-3/8L,,ea,,Mcmaster.com,90604A240,http://www.mcmaster.com/nav/enter.asp?partnum=90604A240,or hardware store,-,-,-,-,-
-screw-10-24-1/2L,100?,ea,100?,Mcmaster.com,91440A242,http://www.mcmaster.com/nav/enter.asp?partnum=91440A242,,-,-,-,-,-
-screw-10-24-3/4L,25?,ea,25?,Mcmaster.com,91440A151,http://www.mcmaster.com/nav/enter.asp?partnum=91440A151,,-,-,-,-,-
-screw-10-24-1L,25?,ea,25?,Mcmaster.com,91440A247,http://www.mcmaster.com/nav/enter.asp?partnum=91440A247,,-,-,-,-,-
-,,,,,,,SUBTOTAL,580,28.5,30,162,126
-,,,,,,,1 UNIT IS,96,36,12,100,72
+COMPONENTS,,,,,,,,,,MATERIALS/PARTS FOR DIY COMPONENTS CALCULATOR
+COMPONENT,"QTY, EA",UNIT,BUY QTY,$/UNIT,$$$,VENDOR,PART#,LINK,NOTES,"ANGLE-1x1,IN","SQ-TUBE-1.5,IN","PTFE-1x1,IN","SCREW 6-32 3/8,EA","THREADED-ROD-1/4-20, IN"
+sliding-element-1,8,ea,DIY,,,-,-,-,-,,8,12,32
+sliding-element-2.5,4,ea,DIY,,,-,-,-,-,,10,6,16
+sliding-element-3.5,3,ea,DIY,,,-,-,-,-,,10.5,9,24
+angle-24,6,ea,DIY,,,-,-,-,-,144
+angle-18,6,ea,DIY,,,-,-,-,-,108
+angle-12,6,ea,DIY,,,-,-,-,-,72
+angle-9,4,ea,DIY,,,-,-,-,-,36
+angle-6,6,ea,DIY,,,-,-,-,-,36
+angle-4,15,ea,DIY,,,-,-,-,-,60
+angle-3,16,ea,DIY,,,-,-,-,-,48
+angle-2,16,ea,DIY,,,-,-,-,-,32
+angle-1,26,ea,DIY,,,-,-,-,-,26
+captive-nut,6,ea,DIY,,,-,-,-,-,6,,,18
+leadnut-mount,6,ea,DIY,,,-,-,-,-
+coupling-nut-clamp,6,ea,DIY,,,-,-,-,-,,,,36
+shaft-mount,12,ea,DIY,,,-,-,-,-,12,,,36
+motor-mount-nema23,3,ea,DIY,,,-,-,-,-
+limit-switch,6,ea,DIY,,,-,-,-,-,,,3
+threaded-rod-1/4-20,14.5,in,DIY,,,-,-,-,-,,,,,14.5
+threaded-rod-1/4-20,15.5,in,DIY,,,-,-,-,-,,,,,15.5
+threaded-rod-1/4-20,20.5,in,DIY,,,-,-,-,-,,,,,20.5
+threaded-rod-1/4-20,21.5,in,DIY,,,-,-,-,-,,,,,21.5
+threaded-rod-1/4-20,26.5,in,DIY,,,-,-,-,-,,,,,26.5
+threaded-rod-1/4-20,27.5,in,DIY,,,-,-,-,-,,,,,27.5
+bearing,12,10-pk,2,$19.95,$40,VXB/eBay,R188ZZ ,http://stores.ebay.com/VXB-Bearings-Skateboard-and-Slotcar,,-,-,-,-,-
+pulley-XL10T,6,ea,6,$5.36,$32,SDP/SI,A 6Z 3-10DF03708,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=29443&GroupID=218,,-,-,-,-,-
+motor-coupling,6,ea,6,$2.54,$15,Mcmaster.com,6408K913,http://www.mcmaster.com/nav/enter.asp?partnum=6408K913,,-,-,-,-,-
+motor-coupling-spider,3,ea,3,$1.16,$3,Mcmaster.com,6408K61,http://www.mcmaster.com/nav/enter.asp?partnum=6408K61,,-,-,-,-,-
+belt-XL12OD,1,ea,1,$5.87,$6,SDP/SI,A 6B 3-060037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=25064&GroupID=213,,-,-,-,-,-
+belt-XL32OD,1,ea,1,$8.04,$8,SDP/SI,A 6R 3-160037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=49557&GroupID=213,,-,-,-,-,-
+belt-XL34OD,1,ea,1,$7.98,$8,SDP/SI,A 6R 3-170037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=30073&GroupID=213,,-,-,-,-,-
+coupling-nut-1/4-7/8L,6,ea,6,$0.19,$1,Mcmaster.com,90264A435,http://www.mcmaster.com/nav/enter.asp?partnum=90264A435,or hardware store,-,-,-,-,-
+nut-1/4,24,100-pk,1,$2.76,$3,Mcmaster.com,90480A029,http://www.mcmaster.com/nav/enter.asp?partnum=90480A029,or hardware store,-,-,-,-,-
+spring-lock-washer-1/4,12,100-pk,1,$1.58,$2,Mcmaster.com,91102A750,http://www.mcmaster.com/nav/enter.asp?partnum=91102A750,or hardware store,-,-,-,-,-
+nut-10-24,200+,100-pk,3,$1.38,$4,Mcmaster.com,90480A011,http://www.mcmaster.com/nav/enter.asp?partnum=90480A011,,-,-,-,-,-
+screw-10-24-3/8L,,50-pk,1,$5.71,$6,Mcmaster.com,90604A240,http://www.mcmaster.com/nav/enter.asp?partnum=90604A240,or hardware store,-,-,-,-,-
+screw-10-24-1/2L,100?,100-pk,2,$3.26,$7,Mcmaster.com,91440A242,http://www.mcmaster.com/nav/enter.asp?partnum=91440A242,,-,-,-,-,-
+screw-10-24-3/4L,25?,100-pk,1,$2.7,$3,Mcmaster.com,91440A151,http://www.mcmaster.com/nav/enter.asp?partnum=91440A151,,-,-,-,-,-
+screw-10-24-1L,25?,100-pk,1,$5.09,$5,Mcmaster.com,91440A247,http://www.mcmaster.com/nav/enter.asp?partnum=91440A247,,-,-,-,-,-
+,,,,,,,,,SUBTOTAL,580,28.5,30,162,126
+,,,,,,,,,1 UNIT IS,96,36,12,100,72
 MATERIALS/PARTS FOR DIY COMPONENTS
-MATERIAL/PART,,UNIT,BUY QTY,VENDOR,PART#,LINK,NOTES
-AL-angle-1x1,,8-ft,7,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1016&step=4&showunits=inches&id=63&top_cat=60,,7,-,-,-,-
-AL-square-tube-1.5,,3-ft,1,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1195&step=4&showunits=inches&id=69&top_cat=60,,-,1,-,-,-
-PTFE-angle-1x1,,ft,2.5,Mcmaster.com,8604K12,http://www.mcmaster.com/nav/enter.asp?partnum=8604K12,,-,-,2.5,-,-
-screw-6-32-3/8,,100-pk,2,Mcmaster.com,91440A144,http://www.mcmaster.com/nav/enter.asp?partnum=91440A144,,-,-,-,2,-
-threaded-rod-1/4-20,,6-ft,2,Mcmaster.com,98750A023,http://www.mcmaster.com/nav/enter.asp?partnum=98957A733,or hardware store,-,-,-,-,2
+MATERIAL/PART,,UNIT,BUY QTY,$/UNIT,$$$,VENDOR,PART#,LINK,NOTES
+AL-angle-1x1,,8-ft,7,$7.92,$55,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1016&step=4&showunits=inches&id=63&top_cat=60,,7,-,-,-,-
+AL-square-tube-1.5,,3-ft,1,$14.54,$15,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1195&step=4&showunits=inches&id=69&top_cat=60,,-,1,-,-,-
+PTFE-angle-1x1,,ft,2.5,$22.57,$56,Mcmaster.com,8604K12,http://www.mcmaster.com/nav/enter.asp?partnum=8604K12,,-,-,2.5,-,-
+screw-6-32-3/8,,100-pk,2,$4.44,$9,Mcmaster.com,91440A144,http://www.mcmaster.com/nav/enter.asp?partnum=91440A144,,-,-,-,2,-
+threaded-rod-1/4-20,,6-ft,2,$5.27,$11,Mcmaster.com,98750A023,http://www.mcmaster.com/nav/enter.asp?partnum=98957A733,or hardware store,-,-,-,-,2
+,,,,TOTAL,$288
