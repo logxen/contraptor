@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<title>Belt drive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><base href="http://www.garagefab.cc/" />
+<style type="text/css">
+@import url(misc/print.css);
+</style>
+</head>
+<body>
+<div class="section-1">
+<div class="section-2">
+<div id="node-1149" class="section-3">
+<h1 class="book-heading">Belt drive</h1>
+<object width="425" height="344">
+	<param name="movie" value="http://www.youtube.com/v/HgHiyPiCvuE&amp;hl=en&amp;fs=1&amp;rel=0">
+	</param>
+	<param name="allowFullScreen" value="true">
+	</param>
+	<param name="allowscriptaccess" value="always">
+	</param>
+	<embed src="http://www.youtube.com/v/HgHiyPiCvuE&amp;hl=en&amp;fs=1&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed>
+</object>
+<p>
+Previous examples show how to assemble the structure for the belt drive. The remaining steps are electronics and firmware. 
+</p>
+<span class="inline none"><a href="/user/albanetcsr/photos/belt-drive"><img src="http://www.garagefab.cc/files/images/belt-drive.third.png" alt="" title=""  class="image third" width="200" height="150" /></a></span> <span class="inline none"><a href="/photos/albanetcsr/wiring"><img src="http://www.garagefab.cc/files/images/wiring.third.png" alt="" title=""  class="image third" width="200" height="150" /></a></span>
+<h3>Electronics</h3>
+<p>
+The stepper motor is driven by the stepper driver board which is powered by the PC power supply and controlled by the Arduino controller.  In this example Arduino runs Reprap GCode Interpreter firmware, which processes G-codes sent to it from the computer and tells the stepper driver board to pulse the motor certain number of steps in certain direction, enabling precise control over the position of the sliding element. Limit switches are connected to Arduino via stepper driver board - they tell Arduino when the sliding element has reached the end of axis. 
+</p>
+<p>
+Stepper driver board runs hot which is why it is heatsinked to the frame. This also connects the stepper driver ground to the frame. A ground wire connects the frame to Arduino GND pin. Another ground wire connects the frame to the sliding element. This is
+necessary for limit switches to work because
+sliding elements are isolated from the rail by Teflon pads. Stepper motor driver is connected to five Arduino pins (for example 2-6). They are: ENABLE, STEP, DIR, MIN, MAX.
+</p>
+<h3>Firmware</h3>
+<p>
+The official page for Arduino GCode Interpreter is here: <a href="http://reprap.org/bin/view/Main/Arduino_GCode_Interpreter" title="http://reprap.org/bin/view/Main/Arduino_GCode_Interpreter">http://reprap.org/bin/view/Main/Arduino_GCode_Interpreter</a> and it's useful to get an idea what it does and how to configure it; but the release we're interested in is Chris Meighan's rewrite of the interpreter, available here: <a href="http://forums.reprap.org/read.php?12,19155" title="http://forums.reprap.org/read.php?12,19155">http://forums.reprap.org/read.php?12,19155</a> (see attachments at the end of the first post). It implements several nice things that original interpreter doesn't have, for instance hardware timer stepping, acceleration, true arcs, G-code lookahead. 
+</p>
+<p>
+The _init.pde values for an axis connected to Arduino pins 2-6:
+</p>
+<pre>
+#define X_ENABLE_PIN 2
+#define X_STEP_PIN 3
+#define X_DIR_PIN 4
+#define X_MIN_PIN 5
+#define X_MAX_PIN 6
+</pre>
+<p>
+If your stepper driver board is connected to different pins, use those. 
+</p>
+<p>
+The _init.pde values for the belt drive are as follows (if you want to use metric, convert inches to mm and use *_MM definitions):
+</p>
+<pre>
+#define X_STEPS_PER_INCH   200
+#define FAST_XY_FEEDRATE_INCH  400
+#define MAX_ACCEL_INCH   500
+#define ENDSTOPS_INVERTING  1
+</pre>
+<br class="clear" /></div>
+</div>
+</div>
+
+</body>
+</html>
