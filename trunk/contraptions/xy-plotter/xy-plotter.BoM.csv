@@ -1,55 +1,55 @@
-Latest spreadsheet with formulas can be found at: http://spreadsheets.google.com/ccc?key=t-TC3fva_QeMZurK5nbjBdQ
-COMPONENTS,,,,,,,,,,MATERIALS/PARTS FOR DIY COMPONENTS CALCULATOR
+Latest spreadsheet with formulas can be found at: http://spreadsheets.google.com/ccc?key=t-TC3fva_QeMZurK5nbjBdQ,,,,,,,,,,,,,,
+COMPONENTS,,,,,,,,,,MATERIALS/PARTS FOR DIY COMPONENTS CALCULATOR,,,,
 COMPONENT,"QTY, EA",UNIT,BUY UNITS,$/UNIT,$$$,VENDOR,PART#,LINK,NOTES,"ANGLE-1x1,IN","SQ-TUBE-1.5,IN","PTFE-1x1,IN","SCREW 6-32 3/8,EA","THREADED-ROD-1/4-20, IN"
-sliding-element-1,0,ea,DIY,-,-,-,-,-,-,,0,0,0
-sliding-element-2.5,0,ea,DIY,-,-,-,-,-,-,,0,0,0
-sliding-element-3.5,3,ea,DIY,-,-,-,-,-,-,,10.5,9,24
-angle-24,3,ea,DIY,-,-,-,-,-,-,72
-angle-18,2,ea,DIY,-,-,-,-,-,-,36
-angle-12,0,ea,DIY,-,-,-,-,-,-,0
-angle-9,0,ea,DIY,-,-,-,-,-,-,0
-angle-6,1,ea,DIY,-,-,-,-,-,-,6
-angle-4,2,ea,DIY,-,-,-,-,-,-,8
-angle-3,2,ea,DIY,-,-,-,-,-,-,6
-angle-2,8,ea,DIY,-,-,-,-,-,-,16
-angle-1,8,ea,DIY,-,-,-,-,-,-,8
-captive-nut,0,ea,DIY,-,-,-,-,-,-,0,,,0
-leadnut-mount,0,ea,DIY,-,-,-,-,-,-
-coupling-nut-clamp,0,ea,DIY,-,-,-,-,-,-,,,,0
-shaft-mount,8,ea,DIY,-,-,-,-,-,-,8,,,24
-motor-mount-nema23,2,ea,DIY,-,-,-,-,-,-
-limit-switch,4,ea,DIY,-,-,-,-,-,-,,,2
+sliding-element-1,0,ea,DIY,-,-,-,-,-,-,,0,0,0,
+sliding-element-2.5,0,ea,DIY,-,-,-,-,-,-,,0,0,0,
+sliding-element-3.5,3,ea,DIY,-,-,-,-,-,-,,10.5,9,24,
+angle-24,3,ea,DIY,-,-,-,-,-,-,72,,,,
+angle-18,2,ea,DIY,-,-,-,-,-,-,36,,,,
+angle-12,0,ea,DIY,-,-,-,-,-,-,0,,,,
+angle-9,0,ea,DIY,-,-,-,-,-,-,0,,,,
+angle-6,1,ea,DIY,-,-,-,-,-,-,6,,,,
+angle-4,2,ea,DIY,-,-,-,-,-,-,8,,,,
+angle-3,2,ea,DIY,-,-,-,-,-,-,6,,,,
+angle-2,8,ea,DIY,-,-,-,-,-,-,16,,,,
+angle-1,8,ea,DIY,-,-,-,-,-,-,8,,,,
+captive-nut,0,ea,DIY,-,-,-,-,-,-,0,,,0,
+leadnut-mount,0,ea,DIY,-,-,-,-,-,-,,,,,
+coupling-nut-clamp,0,ea,DIY,-,-,-,-,-,-,,,,0,
+shaft-mount,8,ea,DIY,-,-,-,-,-,-,8,,,24,
+motor-mount-nema23,2,ea,DIY,-,-,-,-,-,-,,,,,
+limit-switch,4,ea,DIY,-,-,-,-,-,-,,,2,,
 threaded-rod-1/4-20,53,in,DIY,-,-,-,-,-,-,,,,,53
-bearing,8,10-pk,1,$19.95,$20,VXB/eBay,R188ZZ ,http://stores.ebay.com/VXB-Bearings-Skateboard-and-Slotcar,search store for part#,-,-,-,-,-
-pulley-XL10T,6,ea,6,$5.36,$32,SDP/SI,A 6Z 3-10DF03708,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=29443&GroupID=218,,-,-,-,-,-
-belt-XL40OD,2,ea,2,$8.60,$17,SDP/SI,A 6R 3-200037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=30082&GroupID=213,,-,-,-,-,-
-belt-XL54OD,1,ea,1,$10.72,$11,SDP/SI,A 6R 3-270037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=5676&GroupID=213,"est. price, store is down"
-motor-coupling,4,ea,4,$2.54,$10,Mcmaster.com,6408K913,http://www.mcmaster.com/nav/enter.asp?partnum=6408K913,,-,-,-,-,-
-motor-coupling-spider,2,ea,2,$1.16,$2,Mcmaster.com,6408K61,http://www.mcmaster.com/nav/enter.asp?partnum=6408K61,,-,-,-,-,-
-coupling-nut-1/4-7/8L,0,ea,0,$0.19,$0,Mcmaster.com,90264A435,http://www.mcmaster.com/nav/enter.asp?partnum=90264A435,or hardware store,-,-,-,-,-
-nut-1/4,14,100-pk,1,$2.76,$3,Mcmaster.com,90480A029,http://www.mcmaster.com/nav/enter.asp?partnum=90480A029,or hardware store,-,-,-,-,-
-spring-lock-washer-1/4,6,100-pk,1,$1.58,$2,Mcmaster.com,91102A750,http://www.mcmaster.com/nav/enter.asp?partnum=91102A750,or hardware store,-,-,-,-,-
-screw-1/4-3L,2,25-pk,1,$7.94,$8,Mcmaster.com,90272A554,http://www.mcmaster.com/nav/enter.asp?partnum=90272A554,or hardware store
-nut-10-24,200,100-pk,2,$1.38,$3,Mcmaster.com,90480A011,http://www.mcmaster.com/nav/enter.asp?partnum=90480A011,,-,-,-,-,-
-combo-screw-10-24-3/8L,12,50-pk,1,$5.71,$6,Mcmaster.com,90604A240,http://www.mcmaster.com/nav/enter.asp?partnum=90604A240,or hardware store,-,-,-,-,-
-combo-screw-10-24-1/2L,200,100-pk,2,$3.26,$7,Mcmaster.com,91440A242,http://www.mcmaster.com/nav/enter.asp?partnum=91440A242,,-,-,-,-,-
-combo-screw-10-24-3/4L,<25,100-pk,1,$5.05,$5,Mcmaster.com,91440A245,http://www.mcmaster.com/nav/enter.asp?partnum=91440A245,or hardware store,-,-,-,-,-
-combo-screw-10-24-1L,<25,100-pk,1,$5.09,$5,Mcmaster.com,91440A247,http://www.mcmaster.com/nav/enter.asp?partnum=91440A247,or hardware store,-,-,-,-,-
+bearing,8,10-pk,1,$19.95 ,$20 ,VXB/eBay,R188ZZ ,http://stores.ebay.com/VXB-Bearings-Skateboard-and-Slotcar,search store for part#,-,-,-,-,-
+pulley-XL10T,6,ea,6,$5.36 ,$32 ,SDP/SI,A 6Z 3-10DF03708,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=29443&GroupID=218,,-,-,-,-,-
+belt-XL40OD,2,ea,2,$8.60 ,$17 ,SDP/SI,A 6R 3-200037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=30082&GroupID=213,,-,-,-,-,-
+belt-XL54OD,1,ea,1,$10.72 ,$11 ,SDP/SI,A 6R 3-270037,http://sdp-si.com/eStore/PartDetail.asp?Opener=Group&PartID=5676&GroupID=213,,-,-,-,-,-
+motor-coupling,4,ea,4,$2.54 ,$10 ,Mcmaster.com,6408K913,http://www.mcmaster.com/nav/enter.asp?partnum=6408K913,,-,-,-,-,-
+motor-coupling-spider,2,ea,2,$1.16 ,$2 ,Mcmaster.com,6408K61,http://www.mcmaster.com/nav/enter.asp?partnum=6408K61,,-,-,-,-,-
+coupling-nut-1/4-7/8L,0,ea,0,$0.19 ,$0 ,Mcmaster.com,90264A435,http://www.mcmaster.com/nav/enter.asp?partnum=90264A435,or hardware store,-,-,-,-,-
+nut-1/4,14,100-pk,1,$2.76 ,$3 ,Mcmaster.com,90480A029,http://www.mcmaster.com/nav/enter.asp?partnum=90480A029,or hardware store,-,-,-,-,-
+spring-lock-washer-1/4,6,100-pk,1,$1.58 ,$2 ,Mcmaster.com,91102A750,http://www.mcmaster.com/nav/enter.asp?partnum=91102A750,or hardware store,-,-,-,-,-
+screw-1/4-3L,2,25-pk,1,$7.94 ,$8 ,Mcmaster.com,90272A554,http://www.mcmaster.com/nav/enter.asp?partnum=90272A554,or hardware store,-,-,-,-,-
+nut-10-24,200,100-pk,2,$1.38 ,$3 ,Mcmaster.com,90480A011,http://www.mcmaster.com/nav/enter.asp?partnum=90480A011,,-,-,-,-,-
+combo-screw-10-24-3/8L,12,50-pk,1,$5.71 ,$6 ,Mcmaster.com,90604A240,http://www.mcmaster.com/nav/enter.asp?partnum=90604A240,or hardware store,-,-,-,-,-
+combo-screw-10-24-1/2L,200,100-pk,2,$3.26 ,$7 ,Mcmaster.com,91440A242,http://www.mcmaster.com/nav/enter.asp?partnum=91440A242,,-,-,-,-,-
+combo-screw-10-24-3/4L,<25,100-pk,1,$5.05 ,$5 ,Mcmaster.com,91440A245,http://www.mcmaster.com/nav/enter.asp?partnum=91440A245,or hardware store,-,-,-,-,-
+combo-screw-10-24-1L,<25,100-pk,1,$5.09 ,$5 ,Mcmaster.com,91440A247,http://www.mcmaster.com/nav/enter.asp?partnum=91440A247,or hardware store,-,-,-,-,-
 ,,,,,,,,,SUBTOTAL,160,10.5,11,48,53
 ,,,,,,,,,1 UNIT IS,96,36,12,100,36
-MATERIALS/PARTS FOR DIY COMPONENTS
-MATERIAL/PART,,UNIT,BUY UNITS,$/UNIT,$$$,VENDOR,PART#,LINK,NOTES
-AL-angle-1x1,,8-ft,2,$7.92,$16,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1016&step=4&showunits=inches&id=63&top_cat=60,,2,-,-,-,-
-AL-square-tube-1.5,,3-ft,1,$14.54,$15,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1195&step=4&showunits=inches&id=69&top_cat=60,,-,1,-,-,-
-PTFE-angle-1x1,,ft,1,$22.57,$23,Mcmaster.com,8604K12,http://www.mcmaster.com/nav/enter.asp?partnum=8604K12,,-,-,1,-,-
-screw-6-32-3/8,,100-pk,1,$2.52,$3,Mcmaster.com,90279A146,http://www.mcmaster.com/nav/enter.asp?partnum=90279A146,,-,-,-,1,-
-threaded-rod-1/4-20,,3-ft,2,$3.10,$6,Mcmaster.com,98957A633,http://www.mcmaster.com/nav/enter.asp?partnum=98957A633,or hardware store,-,-,-,-,2
+MATERIALS/PARTS FOR DIY COMPONENTS,,,,,,,,,,,,,,
+MATERIAL/PART,,UNIT,BUY UNITS,$/UNIT,$$$,VENDOR,PART#,LINK,NOTES,,,,,
+AL-angle-1x1,,8-ft,2,$7.92 ,$16 ,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1016&step=4&showunits=inches&id=63&top_cat=60,,2,-,-,-,-
+AL-square-tube-1.5,,3-ft,1,$14.54 ,$15 ,OnlineMetals.com,N/A,http://www.onlinemetals.com/merchant.cfm?pid=1195&step=4&showunits=inches&id=69&top_cat=60,,-,1,-,-,-
+PTFE-angle-1x1,,ft,1,$22.57 ,$23 ,Mcmaster.com,8604K12,http://www.mcmaster.com/nav/enter.asp?partnum=8604K12,,-,-,1,-,-
+screw-6-32-3/8,,100-pk,1,$2.52 ,$3 ,Mcmaster.com,90279A146,http://www.mcmaster.com/nav/enter.asp?partnum=90279A146,,-,-,-,1,-
+threaded-rod-1/4-20,,3-ft,2,$3.10 ,$6 ,Mcmaster.com,98957A633,http://www.mcmaster.com/nav/enter.asp?partnum=98957A633,or hardware store,-,-,-,-,2
 
-ELECTRONIC COMPONENTS
+ELECTRONIC COMPONENTS,,,,,,,,,,,,,,
 MATERIAL/PART,"QTY, EA",UNIT,BUY UNITS,$/UNIT,$$$,VENDOR,PART#,LINK,NOTES
-stepper-motor,2,ea,2,$9.00,$18,puppysarge/eBay,44A501711,http://stores.shop.ebay.com/Puppysarge-at-Alltronics__W0QQ_armrsZ1,"search store for part#
+stepper-motor,2,ea,2,$9.00 ,$18 ,puppysarge/eBay,44A501711,http://stores.shop.ebay.com/Puppysarge-at-Alltronics__W0QQ_armrsZ1,"search store for part#
 (in titles and descriptions) "
-stepper-driver-board-kit,2,ea,2,$26.00,$52,MakerBot.com,SMD v1.2,http://store.makerbot.com/electronics/electronics-kits/stepper-motor-driver-v1-2-kit.html
-arduino-diecimila,1,ea,1,$30.00,$30,Anywhere,N/A,http://www.google.com/products?&q=Arduino+Diecimila
+stepper-driver-board-kit,2,ea,2,$26.00 ,$52 ,MakerBot.com,SMD v1.2,http://store.makerbot.com/electronics/electronics-kits/stepper-motor-driver-v1-2-kit.html,
+arduino-diecimila,1,ea,1,$30.00 ,$30 ,Anywhere,N/A,http://www.google.com/products?&q=Arduino+Diecimila,
 
-,,,,TOTAL,$291.59,plus S/H
+,,,,TOTAL,$291.59 ,plus S/H,,,
