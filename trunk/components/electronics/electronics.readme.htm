@@ -11,34 +11,7 @@
 <div class="section-2">
 <div id="node-614" class="section-3">
 <h1 class="book-heading">Electronics</h1>
-<h3>Stepper Motors</h3>
-<span class="inline right"><a href="/user/albanetcsr/photos/cimg2857"><img src="http://www.garagefab.cc/files/images/CIMG2857.third.JPG" alt="" title=""  class="image third" width="200" height="150" /></a></span>
-<p>
-I'm currently using cheap Applied Motion Products unipolar stepper
-motors 44A501711. They are rated for 2.3A / 2.3V / 60 oz*in. This is technically beyond the limit of the stepper driver board, but because the board has current limiting capability, it works. I do make sure that the driver boards are heatsinked to the frame whenever I run these steppers.
-</p>
-<h3>Stepper Driver Board</h3>
-<p>
-The set originally used Reprap stepper driver board v1.1, but this board is no longer available. You can buy very similar v1.2 stepper driver board from makerbot.com, which sells kits derived from Reprap designs. One board kit costs $26: <a href="http://store.makerbot.com/electronics/electronics-kits/stepper-motor-driver-v1-2-kit.html" title="http://store.makerbot.com/electronics/electronics-kits/stepper-motor-driver-v1-2-kit.html">http://store.makerbot.com/electronics/electronics-kits/stepper-motor-dri...</a>
-</p>
-<p>
-The RepRap wiki has <a href="http://www.reprap.org/bin/view/Main/Stepper_Motor_Driver_1_2" target="_blank">detailed instructions</a> for soldering this board. The difference between v1.1 and v1.2 is primarily in connectors: v1.2 uses CAT5 for MIN/MAX and IDC for Arduino connection (<a href="http://www.reprap.org/bin/view/Main/Stepper_Motor_Driver_1_1" target="_blank">compare to v1.1</a>). I actually prefer the MIN/MAX connectors in v1.1, and they can still be used with v1.2 board. 
-</p>
-<p>
-Alternatively, you can order parts through the parts lister on the Reprap page and etch your own PCBs using these the trace files here: <a href="http://forums.reprap.org/read.php?13,8181" target="_blank">http://forums.reprap.org/read.php?13,8181 </a>
-</p>
-<p>
-You need as many boards as the axes you want to control at a time.
-</p>
-<h3>Arduino Controller</h3>
-<p>
-You can <a href="http://www.arduino.cc/en/Main/Buy">buy it for little over $30</a>. You can also make or get <a href="http://www.google.com/search?q=freeduino" target="_blank">Freeduino</a> which may be cheaper. 
-</p>
-<h3>ATX power supply</h3>
-<p>
-The PSU can be scavenged from just about any old PC or bought at computer supply stores.
-</p>
-<br class="clear" /></div>
+<h3>Stepper Motors</h3><span class="inline right"><a href="/user/albanetcsr/photos/cimg2857"><img src="http://www.garagefab.cc/files/images/CIMG2857.third.JPG" alt="" title=""  class="image third" width="200" height="150" /></a></span><p>The set uses cheap Applied Motion Products unipolar stepper motors 44A501711. They are rated for 2.3A / 2.3V / 60 oz*in. This is technically beyond the limit of the stepper driver board, but because the board has current limiting capability, it works. I do make sure that the driver boards are heatsinked to the frame whenever I run these steppers.</p><p>I'm currently searching for a more powerful replacement, because 44A501711 motors seem to stall in certain circumstances when running simultaneously. In addition, I've not been able to find the torque curve for them, so their true parameters remain obscure.</p><p>One replacement candidate is RepRap's Keling KL23H51-24-08B motor with twice as much torque. It cost about $25 and can be sourced from MakerBot.com in the US. In Europe, another Reprap's choice - FL57STH51-2808A motor carried by Bitsfrombytes.com - can be an option. </p><h3>Stepper Driver Board</h3><p>The set originally used Reprap stepper driver board v1.1, but the PCB for it is no longer available. You can buy very similar v1.2 Stepper Driver Board from Makerbot.com, which sells kits derived from Reprap designs. One board kit costs $26: <a href="http://store.makerbot.com/electronics/electronics-kits/stepper-motor-driver-v1-2-kit.html" title="http://store.makerbot.com/electronics/electronics-kits/stepper-motor-driver-v1-2-kit.html">http://store.makerbot.com/electronics/electronics-kits/stepper-motor-dri...</a></p><p>The RepRap wiki has <a href="http://www.reprap.org/bin/view/Main/Stepper_Motor_Driver_1_2" target="_blank">detailed instructions</a> for soldering this board. The difference between v1.1 and v1.2 is primarily in layout of components and usage of connectors: v1.2 uses Ethernet sockets for MIN/MAX and IDC with 10-pin ribbon cable for Arduino connection (<a href="http://www.reprap.org/bin/view/Main/Stepper_Motor_Driver_1_1" target="_blank">compare to v1.1</a>). I actually prefer the MIN/MAX connectors in v1.1, and they can still be used with v1.2 board. So, the recommended configuration is SMD v1.2 with MIN/MAX connectors from v1.1.</p><p>Alternatively, you can order parts through the parts lister on the Reprap page and etch your own PCBs using these the trace files here: <a href="http://forums.reprap.org/read.php?13,8181" target="_blank">http://forums.reprap.org/read.php?13,8181 </a></p><p>You need as many boards as the axes you want to control at a time.</p><h3>Arduino Controller</h3><p>You can <a href="http://www.arduino.cc/en/Main/Buy">buy it for little over $30</a>. You can also make or get <a href="http://www.google.com/search?q=freeduino" target="_blank">Freeduino</a> which may be cheaper. </p><h3>ATX power supply</h3><p>The PSU can be scavenged from just about any old PC or bought at computer supply stores.</p><br class="clear" /></div>
 </div>
 </div>
 

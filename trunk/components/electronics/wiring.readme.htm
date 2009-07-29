@@ -11,47 +11,7 @@
 <div class="section-2">
 <div id="node-1095" class="section-3">
 <h1 class="book-heading">Wiring</h1>
-<h3>Overview</h3>
-<span class="inline right"><a href="/photos/albanetcsr/wiring"><img src="http://www.garagefab.cc/files/images/wiring.half.png" alt="" title=""  class="image half" width="320" height="240" /></a></span>
-<p>
-Stepper driver boards are connected to Arduino using CAT5. On the board
-end CAT5 is soldered into the boards, on Arduino end, to pluggable
-5-pin header (ENABLE, STEP, DIR, MIN, MAX). 
-</p>
-<p>
-Ground wire connects the
-contraption frame to Arduino ground. It also provides common ground to the sliding
-elements and the rails (because they are isolated by PTFE). Stepper driver boards are grounded
-and heatsinked to the frame via L298 using 3&quot; angle (a wire is shown in the picture instead).  
-</p>
-<h3>Materials</h3>
-<p>
-CAT5 cable<br />
-Hookup wire<br />
-Connectors (included with stepper board)<br />
-Zip ties
-</p>
-<h3>Wiring scheme</h3>
-<ul>
-	<li>This release:  components/electronics/ 
-	</li>
-	<li>Latest version: <a href="http://contraptor.svn.sourceforge.net/viewvc/contraptor/trunk/components/electronics/" title="http://contraptor.svn.sourceforge.net/viewvc/contraptor/trunk/components/electronics/">http://contraptor.svn.sourceforge.net/viewvc/contraptor/trunk/components...</a> 
-	</li>
-</ul>
-<h3>Making</h3>
-<p>
-Solder about 4-6 ft of CAT5 to each stepper driver board. You only need to solder 5 wires - ENABLE, STEP, DIR, MIN, MAX. On the other end of CAT5, solder the same wires in the same order (check the coloring) to 5-pin header strip.
-</p>
-<p>
-Solder the stepper motor wires to the motor connector. For 44A501711 the wire order is red-blue-green-gray (white and yellow not used), for other motors it may be different. 
-</p>
-<p>
-Solder 4-6 ft of black hookup wire to 1-pin header. This will connect Arduino GND to the contraption frame. Black hookup wire will also be used to connect electrically isolated sliding elements and rails. Stepper driver boards will be mounted by the heatsinks directly on the frame - this will provide heat dissipation and ground connection.
-</p>
-<p>
-Zip ties can make wiring very neat. 
-</p>
-<br class="clear" /></div>
+<h3>Overview</h3><span class="inline right"><a href="/photos/albanetcsr/wiring"><img src="http://www.garagefab.cc/files/images/wiring.half.png" alt="" title=""  class="image half" width="320" height="240" /></a></span><p>Stepper Motor Driver v1.1 are connected to Arduino using CAT5. On the board end CAT5 is soldered into the boards, on Arduino end, to pluggable 5-pin header (ENABLE, STEP, DIR, MIN, MAX).</p><p>Stepper Motor Driver v1.2 uses 10-pin ribbon cable with IDC connector on the board. Again, a 5-pin header can be soldered to the pins 3-7 of the ribbon cable on Arduino end. The pin order is slightly different (STEP, DIR, ENABLE, MIN, MAX). </p><p>Ground wire connects the contraption frame to Arduino ground. It also provides common ground to the sliding elements and the rails (because they are isolated by PTFE). Stepper driver boards are grounded and heatsinked to the frame via L298 using 3&quot; angle (a wire is shown in the picture instead).  </p><h3>Materials</h3><p>CAT5 cable or 10-pin ribbon cable<br />Hookup wire<br />Connectors (included with stepper board)<br />Zip ties</p><h3>Wiring scheme</h3><ul>							<li>This release:  components/electronics/ 	</li>				<li>Latest version: <a href="http://contraptor.svn.sourceforge.net/viewvc/contraptor/trunk/components/electronics/" title="http://contraptor.svn.sourceforge.net/viewvc/contraptor/trunk/components/electronics/">http://contraptor.svn.sourceforge.net/viewvc/contraptor/trunk/components...</a> 	</li></ul><h3>Making</h3><p>SMD v1.1: Solder about 4-6 ft of CAT5 to each stepper driver board. You only need to solder 5 wires - ENABLE, STEP, DIR, MIN, MAX. On the other end of CAT5, solder the same wires in the same order (check the coloring) to 5-pin header strip.</p><p>SMD v1.2: Solder 5-pin header to pins 3-7 of the ribbon cable on Arduino end - STEP, DIR, ENABLE, MIN, MAX. Pin 1 is on the red side of the ribbon cable. You may want to use longer length of the cable than 8&quot; included with the SMD v1.2 kit.</p><p>Solder the stepper motor wires to the motor connector. For 44A501711 the wire order is red-blue-green-gray (white and yellow not used), for other motors it may be different. </p><p>Solder 4-6 ft of black hookup wire to 1-pin header. This will connect Arduino GND to the contraption frame. Black hookup wire will also be used to connect electrically isolated sliding elements and rails. Stepper driver boards will be mounted by the heatsinks directly on the frame - this will provide heat dissipation and ground connection.</p><p>Zip ties can make wiring very neat. </p><br class="clear" /></div>
 </div>
 </div>
 
